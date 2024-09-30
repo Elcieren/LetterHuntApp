@@ -10,7 +10,7 @@
     <summary><h2>Navigasyon Butonları</h2></summary>
     Sağ Buton Kullanıcıdan yeni bir kelime girmesini sağlamak için promptForAnswer metodunu tetikler.Sol Buton Yeni bir oyun başlatmak için startGame metodunu tetikler.
     
-    ```s
+    ```
     navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
     navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .fastForward, target: self, action: #selector(startGame))
 
